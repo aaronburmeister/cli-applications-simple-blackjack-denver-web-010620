@@ -4,7 +4,7 @@ end
 
 def deal_card
   # generate random number between 1...11 (inclusive)
-  rand(1..11)
+  rand(11)
 end
 
 puts deal_card
