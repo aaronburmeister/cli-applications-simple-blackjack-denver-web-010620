@@ -39,13 +39,13 @@ def hit? (card_total)
     card_total += deal_card
     return card_total
   else
-    invalid_command("Please enter a valid command")
+    invalid_command
     prompt_user
   end
 end
 
-def invalid_command(error_message)
-  puts error_message
+def invalid_command
+  puts "Please enter a valid command"
 end
 
 #####################################################
