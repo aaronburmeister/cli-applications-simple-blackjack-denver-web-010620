@@ -4,10 +4,10 @@ end
 
 def deal_card
   # generate random number between 1...11 (inclusive)
+  rand(1..11)
 end
 
-number = (1..11).to_a
-puts number
+deal_card
 
 def display_card_total
   # code #display_card_total here
