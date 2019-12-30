@@ -6,7 +6,7 @@ def deal_card
   # generate random number between 1...11 (inclusive)
 end
 
-puts [1..11]
+number = [1..11]
 
 def display_card_total
   # code #display_card_total here
