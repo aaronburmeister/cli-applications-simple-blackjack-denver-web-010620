@@ -7,6 +7,7 @@ def deal_card
 end
 
 number = [1..11]
+puts number
 
 def display_card_total
   # code #display_card_total here
